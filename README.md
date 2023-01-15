@@ -117,6 +117,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [5585번: 거스름돈](https://muker.tistory.com/205)
 - [2839번: 설탕 배달](https://muker.tistory.com/204)
 - [10872번: 팩토리얼](https://muker.tistory.com/105)
 - [18870번: 좌표 압축](https://muker.tistory.com/104)
