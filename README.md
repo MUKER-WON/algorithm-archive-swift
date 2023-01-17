@@ -118,7 +118,6 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
-
 - [1159번: 농구 경기](https://muker.tistory.com/209)
 - [5597번: 과제 안 내신 분..?](https://muker.tistory.com/207)
 - [10807번: 개수 세기](https://muker.tistory.com/206)
