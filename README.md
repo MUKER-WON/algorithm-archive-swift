@@ -120,6 +120,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [10988번: 팰린드롬인지 확인하기](https://muker.tistory.com/214)
 - [2309번: 일곱 난쟁이](https://muker.tistory.com/212)
 - [1343번: 폴리오미노](https://muker.tistory.com/210)
 - [1159번: 농구 경기](https://muker.tistory.com/209)
