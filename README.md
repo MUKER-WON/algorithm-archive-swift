@@ -122,6 +122,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [11399번: ATM](https://muker.tistory.com/218)
 - [2828번: 사과 담기 게임](https://muker.tistory.com/217)
 - [14916번: 거스름돈](https://muker.tistory.com/216)
 - [10988번: 팰린드롬인지 확인하기](https://muker.tistory.com/214)
