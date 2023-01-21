@@ -122,6 +122,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1391번: 회의실 배정](https://muker.tistory.com/220)
 - [11047번: 동전 0](https://muker.tistory.com/219)
 - [11399번: ATM](https://muker.tistory.com/218)
 - [2828번: 사과 담기 게임](https://muker.tistory.com/217)
