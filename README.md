@@ -122,6 +122,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2217번: 로프](https://muker.tistory.com/223)
 - [1541번: 잃어버린 괄호](https://muker.tistory.com/222)
 - [1026번: 보물](https://muker.tistory.com/221)
 - [1391번: 회의실 배정](https://muker.tistory.com/220)
