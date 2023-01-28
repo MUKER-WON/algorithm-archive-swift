@@ -125,6 +125,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [10610번: 30](https://muker.tistory.com/230)
 - [13305번: 주유소](https://muker.tistory.com/229)
 - [1789번: 수들의 합](https://muker.tistory.com/226)
 - [10162번: 전자레인지](https://muker.tistory.com/224)
