@@ -127,6 +127,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2577번: 숫자의 개수](https://muker.tistory.com/234)
 - [2587번: 대표값2](https://muker.tistory.com/231)
 - [10610번: 30](https://muker.tistory.com/230)
 - [13305번: 주유소](https://muker.tistory.com/229)
