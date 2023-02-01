@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [성격 유형 검사하기](https://muker.tistory.com/235)
 - [사과 장수](https://muker.tistory.com/233)
 - [신규 아이디 추천](https://muker.tistory.com/232)
 - [로또의 최고 순위와 최저 순위](https://muker.tistory.com/228)
