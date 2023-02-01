@@ -128,6 +128,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1085번: 직사각형에서 탈출](https://muker.tistory.com/236)
 - [2577번: 숫자의 개수](https://muker.tistory.com/234)
 - [2587번: 대표값2](https://muker.tistory.com/231)
 - [10610번: 30](https://muker.tistory.com/230)
