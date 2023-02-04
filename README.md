@@ -130,6 +130,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1259번: 팰린드롬수](https://muker.tistory.com/244)
 - [15829번: Hashing](https://muker.tistory.com/241)
 - [2798번: 블랙잭](https://muker.tistory.com/239)
 - [2231번: 분해합](https://muker.tistory.com/238)
