@@ -130,6 +130,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [11050번: 이항 계수 1](https://muker.tistory.com/247)
 - [2775번: 부녀회장이 될테야](https://muker.tistory.com/246)
 - [2609번: 최대공약수와 최소공배수](https://muker.tistory.com/245)
 - [1259번: 팰린드롬수](https://muker.tistory.com/244)
