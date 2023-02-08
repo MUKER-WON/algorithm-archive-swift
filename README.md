@@ -132,6 +132,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1436번: 영화감독 숌](https://muker.tistory.com/251)
 - [11866번: 요세푸스 문제 0](https://muker.tistory.com/249)
 - [11050번: 이항 계수 1](https://muker.tistory.com/247)
 - [2775번: 부녀회장이 될테야](https://muker.tistory.com/246)
