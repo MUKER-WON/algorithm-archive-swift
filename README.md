@@ -136,6 +136,8 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [10816번: 숫자 카드 2](https://muker.tistory.com/263)
+- [10773번: 제로](https://muker.tistory.com/262)
 - [9012번: 괄호](https://muker.tistory.com/261)
 - [4949번: 균형잡힌 세상](https://muker.tistory.com/260)
 - [2164번: 카드2](https://muker.tistory.com/258)
