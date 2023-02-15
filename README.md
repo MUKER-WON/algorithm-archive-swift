@@ -136,6 +136,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1929번: 소수 구하기](https://muker.tistory.com/267)
 - [10866번: 덱](https://muker.tistory.com/266)
 - [10845번: 큐](https://muker.tistory.com/265)
 - [10828번: 스택](https://muker.tistory.com/264)
