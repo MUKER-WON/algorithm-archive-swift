@@ -137,6 +137,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1654번: 랜선 자르기](https://muker.tistory.com/270)
 - [1966번: 프린터 큐](https://muker.tistory.com/268)
 - [1929번: 소수 구하기](https://muker.tistory.com/267)
 - [10866번: 덱](https://muker.tistory.com/266)
