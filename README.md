@@ -139,6 +139,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2805번: 나무 자르기](https://muker.tistory.com/274)
 - [1847번: 스택 수열](https://muker.tistory.com/271)
 - [1654번: 랜선 자르기](https://muker.tistory.com/270)
 - [1966번: 프린터 큐](https://muker.tistory.com/268)
