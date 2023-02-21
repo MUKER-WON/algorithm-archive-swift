@@ -6,6 +6,9 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [이진 변환 반복하기](https://muker.tistory.com/281)
+- [올바른 괄호](https://muker.tistory.com/280)
+- [최솟값 만들기](https://muker.tistory.com/279)
 - [카드 뭉치](https://muker.tistory.com/278)
 - [JadenCase 문자열 만들기](https://muker.tistory.com/273)
 - [최댓값과 최솟값](https://muker.tistory.com/272)
