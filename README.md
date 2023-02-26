@@ -147,6 +147,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1764번: 듣보잡](https://muker.tistory.com/288)
 - [1620번: 나는야 포켓몬 마스터 이다솜](https://muker.tistory.com/287)
 - [18111번: 마인크래프트](https://muker.tistory.com/277)
 - [19757번: 큰 수 A + B](https://muker.tistory.com/276)
