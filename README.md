@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [N개의 최소공배수](https://muker.tistory.com/292)
 - [예상 대진표](https://muker.tistory.com/290)
 - [카펫](https://muker.tistory.com/289)
 - [영어 끝말잇기](https://muker.tistory.com/286)
