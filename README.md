@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [행렬의 곱셈](https://muker.tistory.com/301)
 - [[1차] 캐시](https://muker.tistory.com/300)
 - [괄호 회전하기](https://muker.tistory.com/299)
 - [H-Index](https://muker.tistory.com/297)
