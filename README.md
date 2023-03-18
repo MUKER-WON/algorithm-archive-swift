@@ -161,6 +161,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2579번: 계단 오르기](https://muker.tistory.com/309)
 - [17298번: 오큰수](https://muker.tistory.com/305)
 - [1715번: 카드 정렬하기](https://muker.tistory.com/302)
 - [11659번: 구간 합 구하기 4](https://muker.tistory.com/298)
