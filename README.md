@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [프린터](https://muker.tistory.com/312)
 - [연속 부분 수열 합의 개수](https://muker.tistory.com/311)
 - [기능개발](https://muker.tistory.com/308)
 - [위장](https://muker.tistory.com/307)
