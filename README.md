@@ -165,6 +165,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2606번: 바이러스 - DFS](https://muker.tistory.com/315)
 - [9375번: 패션왕 신해빈](https://muker.tistory.com/310)
 - [2579번: 계단 오르기](https://muker.tistory.com/309)
 - [17298번: 오큰수](https://muker.tistory.com/305)
