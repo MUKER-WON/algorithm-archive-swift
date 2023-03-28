@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [[3차] 압축](https://muker.tistory.com/321)
 - [피로도](https://muker.tistory.com/316)
 - [k진수에서 소수 개수 구하기](https://muker.tistory.com/314)
 - [[1차] 뉴스 클러스터링](https://muker.tistory.com/313)
