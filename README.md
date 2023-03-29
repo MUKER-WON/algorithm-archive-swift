@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [할인행사](https://muker.tistory.com/323)
 - [가장 큰 정사각형 찾기](https://muker.tistory.com/322)
 - [[3차] 압축](https://muker.tistory.com/321)
 - [피로도](https://muker.tistory.com/320)
