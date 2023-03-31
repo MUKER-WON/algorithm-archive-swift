@@ -7,9 +7,9 @@
 
 ## 프로그래머스
 - [할인행사](https://muker.tistory.com/323)
-- [가장 큰 정사각형 찾기](https://muker.tistory.com/322)
+- [가장 큰 정사각형 찾기](https://muker.tistory.com/322) - DP
 - [[3차] 압축](https://muker.tistory.com/321)
-- [피로도](https://muker.tistory.com/320)
+- [피로도](https://muker.tistory.com/320) - 백트래킹,DFS
 - [k진수에서 소수 개수 구하기](https://muker.tistory.com/314)
 - [[1차] 뉴스 클러스터링](https://muker.tistory.com/313)
 - [프린터](https://muker.tistory.com/312)
@@ -169,19 +169,19 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
-- [1463번: 1로 만들기 - DP](https://muker.tistory.com/326)
-- [1520번: 내리막 길 - DP,DFS](https://muker.tistory.com/325)
-- [12865번: 평범한 배낭 - DP](https://muker.tistory.com/324)
+- [1463번: 1로 만들기](https://muker.tistory.com/326) - DP
+- [1520번: 내리막 길](https://muker.tistory.com/325) - DP,DFS
+- [12865번: 평범한 배낭](https://muker.tistory.com/324) - DP
 - [25314번: 코딩은 체육과목 입니다](https://muker.tistory.com/319)
-- [15649번: N과 M (1) - 백트래킹](https://muker.tistory.com/318)
-- [2606번: 바이러스 - DFS](https://muker.tistory.com/315)
+- [15649번: N과 M (1)](https://muker.tistory.com/318) - 백트래킹
+- [2606번: 바이러스](https://muker.tistory.com/315) - DFS
 - [9375번: 패션왕 신해빈](https://muker.tistory.com/310)
 - [2579번: 계단 오르기](https://muker.tistory.com/309)
 - [17298번: 오큰수](https://muker.tistory.com/305)
 - [1715번: 카드 정렬하기](https://muker.tistory.com/302)
 - [11659번: 구간 합 구하기 4](https://muker.tistory.com/298)
 - [17219번: 비밀번호 찾기](https://muker.tistory.com/295)
-- [1012번: 유기농 배추 - DFS](https://muker.tistory.com/293)
+- [1012번: 유기농 배추](https://muker.tistory.com/293) - DFS
 - [1003번: 피보나치 함수](https://muker.tistory.com/291)
 - [1764번: 듣보잡](https://muker.tistory.com/288)
 - [1620번: 나는야 포켓몬 마스터 이다솜](https://muker.tistory.com/287)
