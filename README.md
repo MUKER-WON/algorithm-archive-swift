@@ -170,6 +170,7 @@
 
 ## 백준
 - [1463번: 1로 만들기](https://muker.tistory.com/326)
+- [1520번: 내리막 길](https://muker.tistory.com/325)
 - [12865번: 평범한 배낭](https://muker.tistory.com/324)
 - [25314번: 코딩은 체육과목 입니다](https://muker.tistory.com/319)
 - [15649번: N과 M (1) - 백트래킹](https://muker.tistory.com/318)
