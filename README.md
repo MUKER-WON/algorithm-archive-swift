@@ -170,6 +170,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [10810번: 공 넣기](https://muker.tistory.com/328)
 - [1463번: 1로 만들기](https://muker.tistory.com/326) - DP
 - [1520번: 내리막 길](https://muker.tistory.com/325) - DP,DFS
 - [12865번: 평범한 배낭](https://muker.tistory.com/324) - DP
