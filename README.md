@@ -175,6 +175,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1260번: DFS와 BFS](https://muker.tistory.com/336) - DFS,BFS
 - [1074번: Z](https://muker.tistory.com/334) - 분할탐색
 - [10813번: 공 바꾸기](https://muker.tistory.com/329)
 - [10810번: 공 넣기](https://muker.tistory.com/328)
