@@ -6,7 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
-- [[3차] 파일명 정렬](https://muker.tistory.com/335)
+- [[3차] 파일명 정렬](https://muker.tistory.com/338)
 - [방문 길이](https://muker.tistory.com/335)
 - [스킬트리](https://muker.tistory.com/333)
 - [땅따먹기](https://muker.tistory.com/332)
