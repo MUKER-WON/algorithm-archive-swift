@@ -178,6 +178,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [11727번: 2×n 타일링 2](https://muker.tistory.com/344) - DP
 - [11726번: 2×n 타일링](https://muker.tistory.com/341) - DP
 - [9461번: 파도반 수열](https://muker.tistory.com/340) - DP
 - [9095번: 1,2,3 더하기](https://muker.tistory.com/339) - DP
