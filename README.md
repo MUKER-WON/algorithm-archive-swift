@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [2개 이하로 다른 비트](https://muker.tistory.com/346)
 - [[1차] 프렌즈4블록](https://muker.tistory.com/343)
 - [모음사전](https://muker.tistory.com/342)
 - [[3차] 파일명 정렬](https://muker.tistory.com/338)
