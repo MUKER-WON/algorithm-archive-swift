@@ -179,7 +179,8 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
-- [백준 - 1780번: 종이의 개수](https://muker.tistory.com/347) - 분할정복
+- [2630번: 색종이 만들기](https://muker.tistory.com/348) - 분할정복
+- [1780번: 종이의 개수](https://muker.tistory.com/347) - 분할정복
 - [17626번: Four Squares](https://muker.tistory.com/345) - DP,브루트포스
 - [11727번: 2×n 타일링 2](https://muker.tistory.com/344) - DP
 - [11726번: 2×n 타일링](https://muker.tistory.com/341) - DP
