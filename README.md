@@ -179,6 +179,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [11724번: 연결 요소의 개수](https://muker.tistory.com/349) - DFS,BFS
 - [2630번: 색종이 만들기](https://muker.tistory.com/348) - 분할정복
 - [1780번: 종이의 개수](https://muker.tistory.com/347) - 분할정복
 - [17626번: Four Squares](https://muker.tistory.com/345) - DP,브루트포스
