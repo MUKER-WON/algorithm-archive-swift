@@ -179,6 +179,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2444번: 별 찍기 - 7](https://muker.tistory.com/351)
 - [10811번: 바구니 뒤집기](https://muker.tistory.com/350)
 - [11724번: 연결 요소의 개수](https://muker.tistory.com/349) - DFS,BFS
 - [2630번: 색종이 만들기](https://muker.tistory.com/348) - 분할정복
