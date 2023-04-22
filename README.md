@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [타겟 넘버](https://muker.tistory.com/360)
 - [추억 점수](https://muker.tistory.com/358)
 - [가장 큰 수](https://muker.tistory.com/357)
 - [다리를 지나는 트럭](https://muker.tistory.com/355)
