@@ -184,6 +184,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [10798번: 세로읽기](https://muker.tistory.com/361)
 - [2566번: 최댓값](https://muker.tistory.com/356)
 - [25206번: 너의 평점은](https://muker.tistory.com/354)
 - [10812번: 바구니 순서 바꾸기](https://muker.tistory.com/353)
