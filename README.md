@@ -6,7 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
-- [쿼드압축 후 개수 세기](https://muker.tistory.com/366)
+- [쿼드압축 후 개수 세기](https://muker.tistory.com/366) - 분할정복
 - [대충 만든 자판](https://muker.tistory.com/365)
 - [덧칠하기](https://muker.tistory.com/364)
 - [숫자 변환하기](https://muker.tistory.com/363)
