@@ -189,6 +189,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2745번: 진법 변환](https://muker.tistory.com/368)
 - [2563번: 색종이](https://muker.tistory.com/367)
 - [10798번: 세로읽기](https://muker.tistory.com/361)
 - [2566번: 최댓값](https://muker.tistory.com/356)
