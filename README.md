@@ -189,6 +189,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1037번: 약수](https://muker.tistory.com/373)
 - [4375번: 1](https://muker.tistory.com/372)
 - [2903번: 중앙 이동 알고리즘](https://muker.tistory.com/371)
 - [2720번: 세탁소 사장 동혁](https://muker.tistory.com/370)
