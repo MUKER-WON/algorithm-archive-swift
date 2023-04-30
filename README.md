@@ -189,6 +189,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2581번: 소수](https://muker.tistory.com/377)
 - [9506번: 약수들의 합](https://muker.tistory.com/376)
 - [2501번: 약수 구하기](https://muker.tistory.com/375)
 - [5086번: 배수와 약수](https://muker.tistory.com/374)
