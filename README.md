@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [연속된 부분 수열의 합](https://muker.tistory.com/382)
 - [달리기 경주](https://muker.tistory.com/380)
 - [삼각 달팽이](https://muker.tistory.com/379)
 - [바탕화면 정리](https://muker.tistory.com/378) - 분할정복
