@@ -194,6 +194,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [15894번: 수학은 체육과목 입니다](https://muker.tistory.com/385)
 - [3009번: 네 번째 점](https://muker.tistory.com/384)
 - [2559번: 수열](https://muker.tistory.com/381)
 - [2581번: 소수](https://muker.tistory.com/377)
