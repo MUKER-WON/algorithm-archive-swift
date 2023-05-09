@@ -194,6 +194,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [14940번: 쉬운 최단거리](https://muker.tistory.com/387)
 - [9063번: 대지](https://muker.tistory.com/386)
 - [15894번: 수학은 체육과목 입니다](https://muker.tistory.com/385)
 - [3009번: 네 번째 점](https://muker.tistory.com/384)
