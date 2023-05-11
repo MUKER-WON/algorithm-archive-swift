@@ -194,6 +194,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [9465번: 스티커](https://muker.tistory.com/391)
 - [9466번: 텀 프로젝트](https://muker.tistory.com/388)
 - [14940번: 쉬운 최단거리](https://muker.tistory.com/387)
 - [9063번: 대지](https://muker.tistory.com/386)
