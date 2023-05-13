@@ -195,6 +195,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [10101번: 삼각형 외우기](https://muker.tistory.com/393)
 - [9465번: 스티커](https://muker.tistory.com/391)
 - [9466번: 텀 프로젝트](https://muker.tistory.com/388)
 - [14940번: 쉬운 최단거리](https://muker.tistory.com/387)
