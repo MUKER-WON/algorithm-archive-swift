@@ -195,6 +195,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [13398번: 연속합 2](https://muker.tistory.com/395)
 - [5073번: 삼각형과 세 변](https://muker.tistory.com/394)
 - [10101번: 삼각형 외우기](https://muker.tistory.com/393)
 - [9465번: 스티커](https://muker.tistory.com/391)
