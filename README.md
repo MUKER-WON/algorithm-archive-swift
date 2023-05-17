@@ -195,6 +195,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [14215번: 세 막대](https://muker.tistory.com/397)
 - [10994번: 별 찍기 - 19](https://muker.tistory.com/396)
 - [13398번: 연속합 2](https://muker.tistory.com/395)
 - [5073번: 삼각형과 세 변](https://muker.tistory.com/394)
