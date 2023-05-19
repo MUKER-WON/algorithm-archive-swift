@@ -195,6 +195,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [5212번: 지구 온난화](https://muker.tistory.com/399)
 - [14714번: 홍삼 게임 (Easy)](https://muker.tistory.com/398)
 - [14215번: 세 막대](https://muker.tistory.com/397)
 - [10994번: 별 찍기 - 19](https://muker.tistory.com/396)
