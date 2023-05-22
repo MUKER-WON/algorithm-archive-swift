@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [주사위 게임 1](https://muker.tistory.com/402)
 - [공원 산책](https://muker.tistory.com/392)
 - [롤케이크 자르기](https://muker.tistory.com/383)
 - [연속된 부분 수열의 합](https://muker.tistory.com/382)
