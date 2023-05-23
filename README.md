@@ -196,6 +196,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1158번: 요세푸스 문제](https://muker.tistory.com/403)
 - [4673번: 셀프 넘버](https://muker.tistory.com/401)
 - [1912번: 연속합](https://muker.tistory.com/400)
 - [5212번: 지구 온난화](https://muker.tistory.com/399)
