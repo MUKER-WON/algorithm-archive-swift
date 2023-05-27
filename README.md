@@ -198,6 +198,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2979번: 트럭 주차](https://muker.tistory.com/407)
 - [16935번: 배열 돌리기 3](https://muker.tistory.com/406)
 - [1158번: 요세푸스 문제](https://muker.tistory.com/403)
 - [4673번: 셀프 넘버](https://muker.tistory.com/401)
