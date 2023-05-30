@@ -199,6 +199,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1475번: 방 번호](https://muker.tistory.com/410)
 - [10431번: 줄세우기](https://muker.tistory.com/408)
 - [2979번: 트럭 주차](https://muker.tistory.com/407)
 - [16935번: 배열 돌리기 3](https://muker.tistory.com/406)
