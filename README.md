@@ -199,6 +199,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [19532번: 수학은 비대면강의입니다](https://muker.tistory.com/412)
 - [1924번: 2007년](https://muker.tistory.com/411)
 - [1475번: 방 번호](https://muker.tistory.com/410)
 - [10431번: 줄세우기](https://muker.tistory.com/408)
