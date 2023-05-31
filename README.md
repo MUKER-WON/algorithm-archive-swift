@@ -199,6 +199,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1065번: 한수](https://muker.tistory.com/416)
 - [7785번: 회사에 있는 사람](https://muker.tistory.com/415)
 - [14425번: 문자열 집합](https://muker.tistory.com/414)
 - [10815번: 숫자 카드](https://muker.tistory.com/413)
