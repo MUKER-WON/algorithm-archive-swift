@@ -199,6 +199,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [17413번: 단어 뒤집기 2](https://muker.tistory.com/423)
 - [2167번: 2차원 배열의 합](https://muker.tistory.com/422)
 - [17478번: 재귀함수가 뭔가요?](https://muker.tistory.com/421)
 - [2443번: 별 찍기 - 6](https://muker.tistory.com/420)
