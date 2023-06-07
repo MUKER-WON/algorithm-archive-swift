@@ -6,6 +6,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [주사위 게임 3](https://muker.tistory.com/425)
 - [[카카오 인턴] 수식 최대화](https://muker.tistory.com/409)
 - [문자열 압축](https://muker.tistory.com/405)
 - [두 큐 합 같게 만들기](https://muker.tistory.com/404)
