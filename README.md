@@ -201,6 +201,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1934번: 최소공배수](https://muker.tistory.com/428)
 - [2578번: 빙고](https://muker.tistory.com/427)
 - [2504번: 괄호의 값](https://muker.tistory.com/424)
 - [17413번: 단어 뒤집기 2](https://muker.tistory.com/423)
