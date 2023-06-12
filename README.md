@@ -201,6 +201,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1934번: 최소공배수](https://muker.tistory.com/430)
 - [2445번: 별 찍기 - 8](https://muker.tistory.com/429)
 - [1934번: 최소공배수](https://muker.tistory.com/428)
 - [2578번: 빙고](https://muker.tistory.com/427)
