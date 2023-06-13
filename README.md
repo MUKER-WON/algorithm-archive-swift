@@ -201,6 +201,8 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2161번: 카드1](https://muker.tistory.com/432)
+- [1032번: 명령 프롬프트](https://muker.tistory.com/431)
 - [1934번: 최소공배수](https://muker.tistory.com/430)
 - [2445번: 별 찍기 - 8](https://muker.tistory.com/429)
 - [1934번: 최소공배수](https://muker.tistory.com/428)
