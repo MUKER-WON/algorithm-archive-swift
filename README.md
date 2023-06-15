@@ -201,6 +201,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1783번: 병든 나이트](https://muker.tistory.com/434)
 - [1244번: 스위치 켜고 끄기](https://muker.tistory.com/433)
 - [2161번: 카드1](https://muker.tistory.com/432)
 - [1032번: 명령 프롬프트](https://muker.tistory.com/431)
