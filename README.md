@@ -201,6 +201,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2752번: 세수정렬](https://muker.tistory.com/436)
 - [2490번: 윷놀이](https://muker.tistory.com/435)
 - [1783번: 병든 나이트](https://muker.tistory.com/434)
 - [1244번: 스위치 켜고 끄기](https://muker.tistory.com/433)
