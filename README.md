@@ -200,6 +200,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1009번: 분산처리](https://muker.tistory.com/439)
 - [14502번: 연구소](https://muker.tistory.com/438)
 - [1706번: 크로스워드](https://muker.tistory.com/437)
 - [2752번: 세수정렬](https://muker.tistory.com/436)
