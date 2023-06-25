@@ -205,6 +205,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [5338번: 마이크로소프트 로고](https://muker.tistory.com/446)
 - [2960번: 에라토스테네스의 체](https://muker.tistory.com/444)
 - [1009번: 분산처리](https://muker.tistory.com/439)
 - [14502번: 연구소](https://muker.tistory.com/438)
