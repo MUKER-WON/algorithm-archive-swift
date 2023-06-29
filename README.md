@@ -5,6 +5,7 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순   
 
 ## 프로그래머스
+- [숫자 카드 나누기](https://muker.tistory.com/449)
 - [마법의 엘리베이터](https://muker.tistory.com/448)
 - [[3차] 방금그곡](https://muker.tistory.com/447)
 - [괄호 변환](https://muker.tistory.com/445)
