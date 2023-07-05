@@ -210,6 +210,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2503번: 숫자 야구](https://muker.tistory.com/453)
 - [10797번: 10부제](https://muker.tistory.com/450)
 - [5338번: 마이크로소프트 로고](https://muker.tistory.com/446)
 - [2960번: 에라토스테네스의 체](https://muker.tistory.com/444)
