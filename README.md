@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [16974번: 레벨 햄버거](https://muker.tistory.com/458)
 - [14235번: 크리스마스 선물](https://muker.tistory.com/455)
 - [5635번: 생일](https://muker.tistory.com/454)
 - [2503번: 숫자 야구](https://muker.tistory.com/453)
