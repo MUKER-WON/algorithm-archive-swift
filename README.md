@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [8979번: 올림픽](https://muker.tistory.com/461)
 - [1697번: 숨바꼭질](https://muker.tistory.com/460)
 - [1748번: 수 이어 쓰기 1](https://muker.tistory.com/459)
 - [16974번: 레벨 햄버거](https://muker.tistory.com/458)
