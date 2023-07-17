@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2669번: 직사각형 네개의 합집합의 면적 구하기](https://muker.tistory.com/463)
 - [2740번: 행렬 곱셈](https://muker.tistory.com/462)
 - [8979번: 올림픽](https://muker.tistory.com/461)
 - [1697번: 숨바꼭질](https://muker.tistory.com/460)
