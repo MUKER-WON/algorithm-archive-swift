@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1758번: 알바생 강호](https://muker.tistory.com/467)
 - [7562번: 나이트의 이동](https://muker.tistory.com/466)
 - [5800번: 성적 통계](https://muker.tistory.com/465)
 - [10448번: 유레카 이론](https://muker.tistory.com/464)
