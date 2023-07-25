@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [19941번: 햄버거 분배](https://muker.tistory.com/469)
 - [10709번: 기상캐스터](https://muker.tistory.com/468)
 - [1758번: 알바생 강호](https://muker.tistory.com/467)
 - [7562번: 나이트의 이동](https://muker.tistory.com/466)
