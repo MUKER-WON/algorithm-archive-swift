@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [2304번: 창고 다각형](https://muker.tistory.com/471)
 - [2852번: NBA 농구](https://muker.tistory.com/470)
 - [19941번: 햄버거 분배](https://muker.tistory.com/469)
 - [10709번: 기상캐스터](https://muker.tistory.com/468)
