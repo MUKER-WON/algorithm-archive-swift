@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1138번: 한 줄로 서기](https://muker.tistory.com/476)
 - [1205번: 등수 구하기](https://muker.tistory.com/475)
 - [2870번: 수학숙제](https://muker.tistory.com/474)
 - [20006번: 랭킹전 대기열](https://muker.tistory.com/473)
