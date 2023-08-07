@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [11576번: Base Conversion](https://muker.tistory.com/480)
 - [10039번: 평균 점수](https://muker.tistory.com/479)
 - [9655번: 돌 게임](https://muker.tistory.com/478)
 - [1138번: 한 줄로 서기](https://muker.tistory.com/476)
