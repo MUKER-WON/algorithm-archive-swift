@@ -211,6 +211,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [1388번: 바닥 장식](https://muker.tistory.com/482)
 - [1388번: 바닥 장식](https://muker.tistory.com/481)
 - [11576번: Base Conversion](https://muker.tistory.com/480)
 - [10039번: 평균 점수](https://muker.tistory.com/479)
