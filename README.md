@@ -215,6 +215,7 @@
 - [x만큼 간격이 있는 n개의 숫자](https://muker.tistory.com/21)
 
 ## 백준
+- [25192번: 인사성 밝은 곰곰이](https://muker.tistory.com/488)
 - [3048번: 개미](https://muker.tistory.com/487)
 - [1308번: D-Day](https://muker.tistory.com/486)
 - [1010번: 다리 놓기](https://muker.tistory.com/485)
