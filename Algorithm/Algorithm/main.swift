@@ -5,4 +5,3 @@ if let submit = questionArray.first {
 } else {
 	print("해당되는 문제가 없습니다.")
 }
-

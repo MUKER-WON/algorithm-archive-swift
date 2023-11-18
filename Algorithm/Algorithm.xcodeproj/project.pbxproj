@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B55430962A5BDC61004768BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B1229D28AF17C8004CE5F8 /* main.swift */; };
 		B5AC33D12B08846000B2A9F3 /* QuestionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC33D02B08846000B2A9F3 /* QuestionArray.swift */; };
+		B5AC33D32B08913000B2A9F3 /* 2의 영역.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		B5AC33D02B08846000B2A9F3 /* QuestionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionArray.swift; sourceTree = "<group>"; };
+		B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2의 영역.swift"; sourceTree = "<group>"; };
 		B5B1229A28AF17C8004CE5F8 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B1229D28AF17C8004CE5F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,8 +52,41 @@
 		B5AC33CE2B0851FE00B2A9F3 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				B5AC33D42B08939500B2A9F3 /* LV.0 */,
+				B5AC33D52B0893B400B2A9F3 /* LV.1 */,
+				B5AC33D62B0893B800B2A9F3 /* LV.2 */,
+				B5AC33D72B0893BC00B2A9F3 /* LV.3 */,
 			);
 			path = Programmers;
+			sourceTree = "<group>";
+		};
+		B5AC33D42B08939500B2A9F3 /* LV.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */,
+			);
+			path = LV.0;
+			sourceTree = "<group>";
+		};
+		B5AC33D52B0893B400B2A9F3 /* LV.1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LV.1;
+			sourceTree = "<group>";
+		};
+		B5AC33D62B0893B800B2A9F3 /* LV.2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LV.2;
+			sourceTree = "<group>";
+		};
+		B5AC33D72B0893BC00B2A9F3 /* LV.3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LV.3;
 			sourceTree = "<group>";
 		};
 		B5B1229128AF17C8004CE5F8 = {
@@ -139,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AC33D32B08913000B2A9F3 /* 2의 영역.swift in Sources */,
 				B5AC33D12B08846000B2A9F3 /* QuestionArray.swift in Sources */,
 				B55430962A5BDC61004768BF /* main.swift in Sources */,
 			);
