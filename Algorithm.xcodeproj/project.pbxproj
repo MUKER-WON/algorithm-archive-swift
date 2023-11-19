@@ -10,6 +10,7 @@
 		B55430962A5BDC61004768BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B1229D28AF17C8004CE5F8 /* main.swift */; };
 		B5AC33D12B08846000B2A9F3 /* QuestionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC33D02B08846000B2A9F3 /* QuestionArray.swift */; };
 		B5AC33D32B08913000B2A9F3 /* 2의 영역.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */; };
+		B5AC34112B09C60800B2A9F3 /* 원하는 문자열 찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC34102B09C60800B2A9F3 /* 원하는 문자열 찾기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		B5AC33D02B08846000B2A9F3 /* QuestionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionArray.swift; sourceTree = "<group>"; };
 		B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2의 영역.swift"; sourceTree = "<group>"; };
+		B5AC34102B09C60800B2A9F3 /* 원하는 문자열 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "원하는 문자열 찾기.swift"; sourceTree = "<group>"; };
 		B5B1229A28AF17C8004CE5F8 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B1229D28AF17C8004CE5F8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */,
+				B5AC34102B09C60800B2A9F3 /* 원하는 문자열 찾기.swift */,
 			);
 			path = LV.0;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				B5AC33D32B08913000B2A9F3 /* 2의 영역.swift in Sources */,
 				B5AC33D12B08846000B2A9F3 /* QuestionArray.swift in Sources */,
+				B5AC34112B09C60800B2A9F3 /* 원하는 문자열 찾기.swift in Sources */,
 				B55430962A5BDC61004768BF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
