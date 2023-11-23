@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B51C20D92B0ED2FD00C931C5 /* 숫자 카드 2(10816).swift in Sources */ = {isa = PBXBuildFile; fileRef = B51C20D82B0ED2FD00C931C5 /* 숫자 카드 2(10816).swift */; };
 		B55430962A5BDC61004768BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B1229D28AF17C8004CE5F8 /* main.swift */; };
 		B5AC33D12B08846000B2A9F3 /* QuestionArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC33D02B08846000B2A9F3 /* QuestionArray.swift */; };
 		B5AC33D32B08913000B2A9F3 /* 2의 영역.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B51C20D82B0ED2FD00C931C5 /* 숫자 카드 2(10816).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "숫자 카드 2(10816).swift"; sourceTree = "<group>"; };
 		B5AC33D02B08846000B2A9F3 /* QuestionArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionArray.swift; sourceTree = "<group>"; };
 		B5AC33D22B08913000B2A9F3 /* 2의 영역.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2의 영역.swift"; sourceTree = "<group>"; };
 		B5AC34102B09C60800B2A9F3 /* 원하는 문자열 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "원하는 문자열 찾기.swift"; sourceTree = "<group>"; };
@@ -44,9 +46,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B51C20D72B0ED2CB00C931C5 /* Silver */ = {
+			isa = PBXGroup;
+			children = (
+				B51C20D82B0ED2FD00C931C5 /* 숫자 카드 2(10816).swift */,
+			);
+			path = Silver;
+			sourceTree = "<group>";
+		};
 		B5AC33CD2B0851F600B2A9F3 /* Baekjoon */ = {
 			isa = PBXGroup;
 			children = (
+				B51C20D72B0ED2CB00C931C5 /* Silver */,
 			);
 			path = Baekjoon;
 			sourceTree = "<group>";
@@ -181,6 +192,7 @@
 				B5AC33D12B08846000B2A9F3 /* QuestionArray.swift in Sources */,
 				B5AC34112B09C60800B2A9F3 /* 원하는 문자열 찾기.swift in Sources */,
 				B55430962A5BDC61004768BF /* main.swift in Sources */,
+				B51C20D92B0ED2FD00C931C5 /* 숫자 카드 2(10816).swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
