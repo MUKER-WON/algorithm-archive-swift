@@ -3,10 +3,10 @@
 //  Algorithm
 //
 //  Created by Muker on 11/23/23.
-// https://www.acmicpc.net/problem/10816
+//  https://www.acmicpc.net/problem/10816
 
 import Foundation
-
+///dictionay로 풀 수 있는 문제.
 func silver_숫자카드2() {
 	let _ = readLine()!
 	let cardValues = readLine()!
