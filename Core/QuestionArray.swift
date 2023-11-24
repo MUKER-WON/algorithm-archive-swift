@@ -1,6 +1,7 @@
 import Foundation
 
 let questionArray: [() -> ()] = [
+	lv0_배열조각하기,
 	silver_뒤집기,
 	silver_숫자카드2,
 	LV0_원하는문자열찾기,

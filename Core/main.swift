@@ -1,7 +1,11 @@
 import Foundation
 
-if let submit = questionArray.first {
+let useQuestionArray = false
+
+if useQuestionArray, let submit = questionArray.first {
+	print("========= QuestionArray 입출력 =========")
 	submit()
+	print("======================================")
 } else {
-	print("해당되는 문제가 없습니다.")
+	print("== QuestionArray를 사용하지 않고 있습니다. ==")
 }
