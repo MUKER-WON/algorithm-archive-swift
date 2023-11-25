@@ -8,8 +8,21 @@
 import Foundation
 /// 아이디어 문제 풀이
 func silver_뒤집기() {
-	let S = readLine()!
-	let A = S.split { $0 != S.first! }
+	
+	func solution() {
+		let S = readLine()!
+		let A = S.split { $0 != S.first! }
+		print(S.first != S.last ? A.count : A.count-1)
+	}
+	solution()
+	
+	func solution2() {
+		let str = readLine()!
 
-	print(S.first != S.last ? A.count : A.count-1)
+		let a = str.split { $0 == "0" }
+		let b = str.split { $0 == "1" }
+		print(min(a.count, b.count))
+	}
+	solution2()
+	
 }
