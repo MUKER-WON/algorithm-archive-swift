@@ -25,3 +25,15 @@ loop1: for _ in 0..<Int(readLine()!)! {
 	print(stack.isEmpty ? "YES" : "NO")
 }
 }
+
+/// 스택 대신 "("값을 정수로 세어 음수나 0이 나온다면 "NO" 아니라면 "YES"
+func silver_괄호2() {
+	for _ in 0..<Int(readLine()!)! {
+		var result = 0
+		for i in readLine()! {
+			result += (i == "(") ? 1 : -1
+			if result < 0 { break }
+		}
+		print(result == 0 ? "YES" : "NO")
+	}
+}
