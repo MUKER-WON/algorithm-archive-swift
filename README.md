@@ -4,10 +4,13 @@
 - **정렬** : 풀이한 날짜 기준으로 내림차순
 
 ## 추천 문제
+
 ### 분할정복
+
 문제 링크 및 난이도|문제 풀이
 |:-----------:|:-----:|
- [백준 실버1](https://www.acmicpc.net/problem/1992) | [쿼드트리(1992번)](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Baekjoon/Silver/쿼드트리(1992).swift)
+[백준 실버1](https://www.acmicpc.net/problem/1992)| [쿼드트리(1992번)](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Baekjoon/Silver/쿼드트리(1992).swift)
+
 
 <br/>
 
