@@ -16,7 +16,6 @@ func silver_뒤집기() {
 
 func silver_뒤집기2() {
 	let str = readLine()!
-	
 	let a = str.split { $0 == "0" }
 	let b = str.split { $0 == "1" }
 	print(min(a.count, b.count))

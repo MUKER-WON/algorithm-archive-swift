@@ -21,7 +21,6 @@ func silver_쇠막대기() {
 	let input = Array(readLine()!)
 	var stack = [String]()
 	var result = 0
-	
 	for index in 0..<input.count {
 		if input[index] == "(" {
 			stack.append("(")
@@ -45,7 +44,6 @@ func silver_쇠막대기2() {
 	let input = Array(readLine()!)
 	var stick = 0
 	var result = 0
-	
 	for i in 0..<input.count {
 		if input[i] == "(" {
 			stick += 1

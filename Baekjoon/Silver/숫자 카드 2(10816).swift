@@ -13,11 +13,9 @@ func silver_숫자카드2() {
 	let _ = readLine()!
 	let MNum = readLine()!
 	var result = [Int]()
-	
 	let dic = Dictionary(grouping: cardValues.split { $0 == " " }
 		.map { Int($0) ?? 0 }) { $0 }
 		.mapValues { $0.count }
-	
 	let MArr = MNum.split { $0 == " " }
 		.map { Int($0)! }
 	

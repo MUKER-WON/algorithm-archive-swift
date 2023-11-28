@@ -1,6 +1,8 @@
 import Foundation
 
 let questionArray: [() -> ()] = [
+	LV2_큰_수_만들기,
+	gold_별찍기_10,
 	silver_쿼드트리,
 	silver_괄호,
 	silver_쇠막대기,
