@@ -9,7 +9,7 @@
 문제 링크 및 난이도|문제 풀이
 |:-----------:|:-----:|
 [백준 실버1](https://www.acmicpc.net/problem/1992)| [쿼드트리(1992번)](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Baekjoon/Silver/쿼드트리(1992).swift)
-CC
+[백준 골드5](https://www.acmicpc.net/problem/2447) | [별 찍기 - 10](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Baekjoon/Gold/별%20찍기%20-%2010(2447).swift)
 
 <br/>
 
