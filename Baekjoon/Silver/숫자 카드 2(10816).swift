@@ -6,7 +6,7 @@
 //  https://www.acmicpc.net/problem/10816
 
 import Foundation
-///dictionay로 풀 수 있는 문제.
+
 func silver_숫자카드2() {
 	let _ = readLine()!
 	let cardValues = readLine()!
@@ -24,4 +24,18 @@ func silver_숫자카드2() {
 	}
 	
 	print(result.map { String($0) }.joined(separator: " "))
+}
+
+
+func silver_숫자카드2_2() {
+	let _ = readLine()!
+	let card = Dictionary(grouping: readLine()!.split { $0 == " " }) { $0 }
+	let _ = readLine()!
+	let has = readLine()!.split { $0 == " " }
+	var result = [String]()
+
+	for i in has { result.append(String(card[i]?.count ?? 0)) }
+
+	print(result.joined(separator: " "))
+
 }

@@ -27,7 +27,7 @@ loop1: for _ in 0..<Int(readLine()!)! {
 }
 
 /// 스택 대신 "("값을 정수로 세어 음수나 0이 나온다면 "NO" 아니라면 "YES"
-func silver_괄호2() {
+func silver_괄호_2() {
 	for _ in 0..<Int(readLine()!)! {
 		var result = 0
 		for i in readLine()! {
@@ -35,5 +35,16 @@ func silver_괄호2() {
 			if result < 0 { break }
 		}
 		print(result == 0 ? "YES" : "NO")
+	}
+}
+
+func silver_괄호_3() {
+	for _ in 0..<Int(readLine()!)! {
+		var P = 0
+		for C in readLine()! {
+			P += (C == "(") ? 1 : -1
+			if P < 0 { break }
+		}
+		print(P == 0 ? "YES" : "NO")
 	}
 }
