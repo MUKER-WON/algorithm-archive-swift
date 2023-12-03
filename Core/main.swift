@@ -11,6 +11,5 @@ if useQuestionArray, let submit = questionArray.first {
 }
 //---------------------------------------------------------------------//
 
-
-
-
+let arr = [(1,2),(1,3),(4,1),(4,5),(6,5)]
+print(arr.sorted(by: >))
