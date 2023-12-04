@@ -59,6 +59,29 @@ func gold_별찍기_10() {
 	arr.forEach { print($0.joined()) }
 }
 
+func gold_별찍기10_try2() {
+	let N = Int(readLine()!)!
+	var arr = Array(repeating: Array(repeating: " ", count: N), count: N)
+	func task(y: Int, x: Int, size: Int) {
+		if size == 1 {
+			arr[y][x] = "*"
+			return
+		}
+		let new = size / 3
+		var checkFifth = 0
+		for i in stride(from: y, to: y+size, by: new) {
+			for j in stride(from: x, to: x+size, by: new) {
+				checkFifth += 1
+				if checkFifth != 5 {
+					task(y: i, x: j, size: new)
+				}
+			}
+		}
+	}
+	task(y: 0, x: 0, size: N)
+	arr.forEach { print($0.joined()) }
+}
+
 /*
  input: 9 일 때, 중첩 반복문으로 재귀를 실행하면 이 순서로 *이 찍힌다.
  

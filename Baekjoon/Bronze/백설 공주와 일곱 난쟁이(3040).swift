@@ -8,7 +8,6 @@
 import Foundation
 
 func bronze_백설공주와일곱난쟁이() {
-	
 	let n = (0..<9).map { _ in Int(readLine()!)! }
 	let sum = n.reduce(0,+)
 	var criminal = [0,0]
@@ -26,5 +25,17 @@ func bronze_백설공주와일곱난쟁이() {
 			print(n[i])
 		}
 	}
-	
+}
+
+func bronze_백설공주와일곱난쟁이_try2() {
+	let n = (0..<9).map { _ in Int(readLine()!)! }
+	let s = n.reduce(0,+)
+
+	for i in 0..<8 {
+		for j in i+1..<9 where s-n[i]-n[j] == 100 {
+			print(n.filter { ![n[i],n[j]].contains($0) }
+				.map { String($0) }
+				.joined(separator: "\n"))
+		}
+	}
 }

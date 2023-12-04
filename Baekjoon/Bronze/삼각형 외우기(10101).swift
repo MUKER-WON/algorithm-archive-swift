@@ -22,3 +22,11 @@ func bronze_삼각형_외우기() {
 	}
 	print(check(a: arr))
 }
+
+func bronze_삼각형외우기_try2() {
+	let a = (0..<3).map { _ in Int(readLine()!)! }
+	if a.reduce(0,+) == 180 {
+		let s = Set(a).count
+		s == 1 ? print("Equilateral") : s == 2 ? print("Isosceles") : print("Scalene")
+	} else { print("Error") }
+}

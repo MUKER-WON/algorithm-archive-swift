@@ -45,3 +45,33 @@ loop: while true {
 	room.forEach { print($0) }
 	
 }
+
+func gold_로봇청소기_try2() {
+	let direction = [(-1,0),(0,1),(1,0),(0,-1)]
+	let I1 = readLine()!.split { $0 == " " }.map { Int($0)! }, (N,M) = (I1[0],I1[1])
+	var I2 = readLine()!.split { $0 == " " }.map { Int($0)! }, (y,x,d) = (I2[0],I2[1],I2[2])
+	var room = (0..<N).map { _ in readLine()!.split { $0 == " " } }
+	var clean = 0
+
+	loop: while true {
+		if room[y][x] == "0" {
+			room[y][x] = "2"
+			clean += 1
+		}
+		for _ in 0...3 {
+			d = (d+3)%4
+			let dy = direction[d].0+y
+			let dx = direction[d].1+x
+			guard dy >= 0 && dy < room.count && dx >= 0 && dx < M else { continue }
+			if room[dy][dx] == "0" {
+				(y,x) = (dy,dx)
+				continue loop
+			}
+		}
+		let b = direction[(d+2)%4]
+		let (by,bx) = (b.0+y,b.1+x)
+		if room[by][bx] == "1" { break }
+		(y,x) = (by,bx)
+	}
+	print(clean)
+}
