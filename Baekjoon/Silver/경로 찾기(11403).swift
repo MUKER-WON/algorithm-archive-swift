@@ -8,7 +8,6 @@
 import Foundation
 
 func silver_경로찾기() {
-	
 	let N = Int(readLine()!)!
 	let graph = (0..<N).map { _ in readLine()!.split { $0 == " " }.enumerated()
 		.filter { $0.element == "1" }
@@ -26,5 +25,20 @@ func silver_경로찾기() {
 		}
 	}
 	result.forEach { print($0.joined(separator: " ")) }
-	
+}
+
+/// 플로이드 워샬 기반의 경로 찾기
+func silver_경로찾기_try2() {
+	let N = Int(readLine()!)!
+	var arr = (0..<N).map { _ in readLine()!.split { $0 == " " } }
+	for k in 0..<N {
+		for i in 0..<N {
+			for j in 0..<N {
+				if arr[i][k] == "1" && arr[k][j] == "1" {
+					arr[i][j] = "1"
+				}
+			}
+		}
+	}
+	arr.forEach { print($0.joined(separator: " ")) }
 }

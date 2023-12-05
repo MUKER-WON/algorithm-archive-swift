@@ -1,6 +1,7 @@
 import Foundation
 
 let questionArray: [() -> ()] = [
+	silver_N과M_1,
 	silver_수들의합,
 	silver_좌표정렬하기2,
 	silver_경로찾기,
