@@ -18,4 +18,3 @@ func silver_수들의합() {
 	}
 	print(sum == S ? count : count-1)
 }
-
