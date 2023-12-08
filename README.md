@@ -9,7 +9,13 @@
 문제 링크 및 난이도|문제 풀이
 |:-----------:|:-----:|
 [백준 실버1](https://www.acmicpc.net/problem/1992)| [쿼드트리(1992번)](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Baekjoon/Silver/쿼드트리(1992).swift)
-[백준 골드5](https://www.acmicpc.net/problem/2447) | [별 찍기 - 10(2447)](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Baekjoon/Gold/별%20찍기%20-%2010(2447).swift)
+[백준 골드5](https://www.acmicpc.net/problem/2447)|[별 찍기 - 10(2447)](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Baekjoon/Gold/별%20찍기%20-%2010(2447).swift)
+
+### 동적프로그래밍(DP, DynamicProgramming)
+
+문제 링크 및 난이도|문제 풀이
+|:-----------:|:-----:|
+[프로그래머스 Lv.3](https://school.programmers.co.kr/learn/courses/30/lessons/42895)|[N으로 표현](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Programmers/LV.3/N으로%20표현.swift)
 
 <br/>
 
