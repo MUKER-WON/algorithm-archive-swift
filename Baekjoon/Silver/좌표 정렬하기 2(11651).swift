@@ -21,3 +21,11 @@ func silver_좌표정렬하기2_try2() {
 		.map { ($0[1],$0[0]) }
 	A.sorted(by: <).forEach { print("\($0.1) \($0.0)") }
 }
+
+func silver_좌표정렬하기2_3() {
+	(0..<Int(readLine()!)!).map { _ in
+		readLine()!.split { $0 == " " }.map { Int($0)! }
+	}.sorted { ($0[1],$0[0]) < ($1[1],$1[0]) }.forEach {
+		print("\($0[0]) \($0[1])")
+	}
+}
