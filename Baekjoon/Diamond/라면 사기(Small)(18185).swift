@@ -7,7 +7,7 @@
 
 import Foundation
 
-func diamond_라면사기small() {
+func diamond_라면사기_small() {
 	
 	let N = Int(readLine()!)!
 	var arr = readLine()!.split { $0 == " " }.map { Int($0)! } + [0,0]

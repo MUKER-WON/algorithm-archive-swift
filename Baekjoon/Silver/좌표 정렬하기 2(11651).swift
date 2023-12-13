@@ -17,7 +17,7 @@ func silver_좌표정렬하기2() {
 
 func silver_좌표정렬하기2_try2() {
 	let N = Int(readLine()!)!
-	var A = (0..<N).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
+	let A = (0..<N).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
 		.map { ($0[1],$0[0]) }
 	A.sorted(by: <).forEach { print("\($0.1) \($0.0)") }
 }
