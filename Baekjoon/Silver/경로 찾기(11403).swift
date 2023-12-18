@@ -27,6 +27,39 @@ func silver_경로찾기() {
 	result.forEach { print($0.joined(separator: " ")) }
 }
 
+//MARK: - second sol
+
+/// result 배열을 만들지 않고 푼 풀이
+func silver_경로찾기_try1() {
+	let N = Int(readLine()!)!
+	var A = (0..<N).map { i in readLine()!.split { $0 == " " }
+			.enumerated().filter { $0.element == "1" }
+			.map { $0.offset }
+	}
+
+	for i in 0..<N {
+		var S = A[i]
+		while !S.isEmpty {
+			A[S.removeLast()].forEach {
+				if !A[i].contains($0) {
+					A[i].append($0)
+					S.append($0)
+				}
+			}
+		}
+	}
+
+	A.forEach {
+		var str = ""
+		for i in 0..<N {
+			str.append("\($0.contains(i) ? "1" : "0") ")
+		}
+		print(str)
+	}
+}
+
+//MARK: - third sol
+
 /// 플로이드 워샬 기반의 경로 찾기
 func silver_경로찾기_try2() {
 	let N = Int(readLine()!)!

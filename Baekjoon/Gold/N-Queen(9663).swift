@@ -51,7 +51,7 @@ func N_Queen() {
 	solution(n: Int(readLine()!)!)
 }
 
-//MARK: - 실패 풀이
+//MARK: - 실패 풀이1
 
 func N_Queen_시간초과실패2() {
 	func Q(_ n: Int,_ c: Int = 0,_ a: [Int] = [])-> [[Int]] {
@@ -65,6 +65,8 @@ func N_Queen_시간초과실패2() {
 	}
 	print(Q(Int(readLine()!)!).count)
 }
+
+//MARK: - 실패 풀이2
 
 func N_Queen_시간초과실패() {
 	let N = Int(readLine()!)!

@@ -7,7 +7,7 @@
 
 import Foundation
 
-func silver_숫자카드2() {
+func silver_숫자카드() {
 	let _ = readLine()!
 	let cardValues = readLine()!
 	let _ = readLine()!
@@ -26,6 +26,7 @@ func silver_숫자카드2() {
 	print(result.map { String($0) }.joined(separator: " "))
 }
 
+//MARK: - second sol
 
 func silver_숫자카드2_2() {
 	let _ = readLine()!
