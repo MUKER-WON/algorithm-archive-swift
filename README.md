@@ -16,6 +16,7 @@
 문제 링크 및 난이도|문제 풀이|비고
 |:-----------:|:-----:|:--:|
 [프로그래머스 Lv.3](https://school.programmers.co.kr/learn/courses/30/lessons/42895)|[N으로 표현](https://github.com/MUKER-WON/algorithm-archive-swift/blob/main/Programmers/LV.3/N으로%20표현.swift)|
+[백준 골드5](https://www.acmicpc.net/problem/9084)|[동전](https://github.com/MUKER-WON/algorithm-archive-swift/commit/60bbc615fd5c9a240d681cca584231c8c3539b1a)|
 
 ### 최단 경로
 
