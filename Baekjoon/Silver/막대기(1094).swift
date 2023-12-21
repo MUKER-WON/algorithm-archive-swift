@@ -16,3 +16,4 @@ func 막대기() {
 func 막대기_2() {
 	print(Int(readLine()!)!.nonzeroBitCount)
 }
+
