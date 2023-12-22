@@ -20,3 +20,4 @@ func silver_뒤집기2() {
 	let b = str.split { $0 == "1" }
 	print(min(a.count, b.count))
 }
+
