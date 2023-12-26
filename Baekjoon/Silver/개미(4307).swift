@@ -7,6 +7,9 @@
 
 import Foundation
 
+/// 개미들 하이파이브 하고 그대로 뒤로 돌아서 갈길 가는건
+/// 뒤로 돌지 않고 뚫고 가는것과 동일하다
+
 func 개미() {
 	for _ in 0..<Int(readLine()!)! {
 		let n = readLine()!.split { $0 == " " }.map { Int($0)! }

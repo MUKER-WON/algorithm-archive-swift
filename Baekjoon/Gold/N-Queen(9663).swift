@@ -5,19 +5,42 @@
 //  Created by Muker on 12/9/23.
 //
 
+//MARK: - 성공 풀이2
 
-/* 
- 무조건 한 행,열 에는 하나의 퀸만 들어간다는 인사이트로 문제를 간단하게 생각해보기
- 대각선
-	우하향 대각선 x-y 가 같으면 겹친다
-	우상향 대각선 x+y 가 같으면 겹친다
-*/
+func N_Queen_2트() {
+	let N = Int(readLine()!)!
+	var v1 = Array(repeating: 0, count: N)
+	var v2 = Array(repeating: 0, count: N*2)
+	var v3: Set<Int> = []
+	var ans = 0
+
+	func dfs(y: Int) {
+		if y == N {
+			ans += 1
+			return
+		}
+		for x in 0..<N {
+			if (v1[x],v2[y+x]) == (0,0) && !v3.contains(x-y) {
+				(v1[x], v2[y+x]) = (1,1)
+				v3.insert(x-y)
+				dfs(y: y+1)
+				(v1[x], v2[y+x]) = (0,0)
+				v3.remove(x-y)
+			}
+		}
+	}
+	dfs(y: 0)
+	print(ans)
+}
+
+//MARK: - 성공 풀이1
 
 func N_Queen() {
-	func solution(n: Int) {
+	
+	func task(n: Int) {
 		var visited = Array(repeating: false, count: n)
 		var board = Array(repeating: -1, count: n)
-		var count = 0
+		var ans = 0
 		
 		func promising(row: Int) -> Bool {
 			for compareRow in 0..<row {
@@ -29,9 +52,9 @@ func N_Queen() {
 			return true
 		}
 		
-		func task(row: Int) {
+		func dfs(row: Int) {
 			if row == n {
-				count += 1
+				ans += 1
 				return
 			}
 			for checkCol in 0..<n {
@@ -39,16 +62,15 @@ func N_Queen() {
 				board[row] = checkCol
 				if promising(row: row) {
 					visited[checkCol] = true
-					task(row: row+1)
+					dfs(row: row+1)
 					visited[checkCol] = false
 				}
 			}
 		}
-		
-		task(row: 0)
-		print(count)
+		dfs(row: 0)
+		print(ans)
 	}
-	solution(n: Int(readLine()!)!)
+	task(n: Int(readLine()!)!)
 }
 
 //MARK: - 실패 풀이1

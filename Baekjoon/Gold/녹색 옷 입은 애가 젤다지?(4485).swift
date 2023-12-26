@@ -7,6 +7,46 @@
 
 import Foundation
 
+//MARK: - 성공 풀이2
+
+func 백준_녹색옷입은애가젤다지_2() {
+	let (dy,dx) = ([0,0,1,-1],[1,-1,0,0])
+
+	for T in 1... {
+		let N = Int(readLine()!)!
+		if N == 0 { break }
+		
+		let arr = (0..<N).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
+		var visited = Array(repeating: Array(repeating: false, count: N), count: N)
+		var countArr = Array(repeating: Array(repeating: Int.max, count: N), count: N)
+		var queue = [(0,0)]
+		countArr[0][0] = arr[0][0]
+		
+		while !queue.isEmpty {
+			let (y,x) = queue.popLast()!
+			if countArr[y][x] > countArr[N-1][N-1] { continue }
+			
+			for i in 0..<4 {
+				let (ny,nx) = (dy[i]+y,dx[i]+x)
+				guard ny >= 0 && ny < N && nx >= 0 && nx < N else { continue }
+				
+				// 최단거리 최신화
+				countArr[ny][nx] = min(countArr[ny][nx],
+									   countArr[y][x] + arr[ny][nx])
+				
+				if !visited[ny][nx] {
+					queue.append((ny,nx))
+					visited[ny][nx] = true
+				}
+			}
+			
+			queue.sort { countArr[$0.0][$0.1] > countArr[$1.0][$1.1] }
+		}
+		
+		print("Problem \(T): \(countArr[N-1][N-1])")
+	}
+}
+
 //MARK: - 성공 풀이 1
 
 func 백준_녹색옷입은애가젤다지_1() {
@@ -41,38 +81,6 @@ func 백준_녹색옷입은애가젤다지_1() {
 		str += "Problem \(i): \(C[N-1][N-1])\n"
 	}
 	print(str)
-}
-
-//MARK: - 성공 풀이2
-
-func 백준_녹색옷입은애가젤다지_2() {
-	let D = [(0,1),(0,-1),(1,0),(-1,0)]
-	
-	for T in 1... {
-		guard let N = Int(readLine()!), N != 0 else { break }
-		let A = (0..<N).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
-		var V = Array(repeating: Array(repeating: true, count: N), count: N)
-		var C = Array(repeating: Array(repeating: Int.max, count: N), count: N)
-		var Q = [(0,0)]
-		C[0][0] = A[0][0]
-		
-		while !Q.isEmpty {
-			let S = Q.popLast()!
-			if C[S.0][S.1] > C[N-1][N-1] { continue }
-			
-			for i in 0..<4 {
-				let (ny,nx) = (D[i].0 + S.0, D[i].1 + S.1)
-				guard ny >= 0 && ny < N && nx >= 0 && nx < N else { continue }
-				C[ny][nx] = min(C[ny][nx],C[S.0][S.1]+A[ny][nx])
-				if V[ny][nx] {
-					Q.append((ny,nx))
-					V[ny][nx] = false
-				}
-			}
-			Q.sort { C[$0.0][$0.1] > C[$1.0][$1.1] }
-		}
-		print("Problem \(T): \(C[N-1][N-1])")
-	}
 }
 
 //MARK: - 실패 풀이
