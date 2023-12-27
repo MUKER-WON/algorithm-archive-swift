@@ -7,20 +7,24 @@
 
 import Foundation
 
-func 백준_동전_1트() {
+/// DP 감잡기 좋은 문제
+
+//MARK: - 문제 풀이 1
+
+func 백준_동전() {
 	for _ in 0..<Int(readLine()!)! {
 		let _ = Int(readLine()!)!
-		let C = readLine()!.split { $0 == " " }.map { Int($0)! }
-		let M = Int(readLine()!)!
-		var DP = Array(repeating: 0, count: M+1)
-		DP[0] = 1
+		let coins = readLine()!.split { $0 == " " }.map { Int($0)! }
+		let target = Int(readLine()!)!
+		var dp = Array(repeating: 0, count: target+1)
+		dp[0] = 1
 		
-		for i in C {
-			if i > M { continue }
-			for j in i...M {
-				DP[j] += DP[j-i]
+		for coin in coins {
+			if coin > target { continue }
+			for i in coin...target {
+				dp[i] += dp[i-coin]
 			}
 		}
-		print(DP[M])
+		print(dp[target])
 	}
 }

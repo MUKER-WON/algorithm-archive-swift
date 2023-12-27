@@ -7,7 +7,18 @@
 
 import Foundation
 
-func 백준_CCW_1트() {
+//MARK: - 풀이 2
+
+func 백준_CCW_2() {
+	let f = { readLine()!.split { $0 == " " }.map { Int($0)! } }
+	let (a,b,c) = (f(),f(),f())
+
+	print(((b[0]-a[0]) * (c[1]-a[1]) - (c[0]-a[0]) * (b[1]-a[1])).signum())
+}
+
+//MARK: - 풀이 1
+
+func 백준_CCW_1() {
 	let N = (0..<3).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
 	print(
 		(
