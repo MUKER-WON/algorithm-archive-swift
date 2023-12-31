@@ -38,12 +38,12 @@ func silver_경로찾기_try1() {
 	}
 
 	for i in 0..<N {
-		var S = A[i]
-		while !S.isEmpty {
-			A[S.removeLast()].forEach {
+		var stack = A[i]
+		while !stack.isEmpty {
+			A[stack.removeLast()].forEach {
 				if !A[i].contains($0) {
 					A[i].append($0)
-					S.append($0)
+					stack.append($0)
 				}
 			}
 		}

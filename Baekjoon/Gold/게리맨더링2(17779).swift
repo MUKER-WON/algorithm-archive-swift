@@ -11,7 +11,7 @@ import Foundation
 
 func 백준_게리맨더링2_1() {
 	let n = Int(readLine()!)!
-	var map = (0..<n).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
+	let map = (0..<n).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
 	var ans = Int.max
 
 	func divide(y: Int, x: Int, d1: Int, d2: Int) -> Int {
