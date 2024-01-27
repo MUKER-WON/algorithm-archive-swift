@@ -39,7 +39,6 @@ func silver_쇠막대기() {
 	print(result)
 }
 
-
 func silver_쇠막대기2() {
 	let input = Array(readLine()!)
 	var stick = 0

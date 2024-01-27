@@ -55,7 +55,7 @@ func 백준_게리맨더링2_2() {
 	let n = Int(readLine()!)!
 	let map = (0..<n).map { _ in readLine()!.split { $0 == " " }.map { Int($0)! } }
 	var ans = Int.max
-	var myMap = Array(repeating: Array(repeating: 0, count: n), count: n)
+	_ = Array(repeating: Array(repeating: 0, count: n), count: n)
 
 	func task(_ x: Int, _ y: Int, _ d1: Int, _ d2: Int) {
 		var citizen = [0,0,0,0,0]

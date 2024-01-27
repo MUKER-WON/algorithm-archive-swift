@@ -5,6 +5,10 @@
 //  Created by Muker on 12/9/23.
 //
 
+// https://www.acmicpc.net/problem/9663
+// 브루트포스
+// 백트래킹
+
 //MARK: - 성공 풀이2
 
 func N_Queen_2트() {
