@@ -10,6 +10,7 @@ import Foundation
 //MARK: - 첫번째 풀이
 
 func 공통부분문자열_1() {
+	
 	let (a,b) = (Array(readLine()!), Array(readLine()!))
 	var arr = Array(repeating: Array(repeating: 0, count: b.count+1), count: a.count+1)
 	var ans = 0
