@@ -1,7 +1,6 @@
 //
 //  main.swift
-//  Algorithm
+//  MUKER Algorithm
 //
 //
-
 
