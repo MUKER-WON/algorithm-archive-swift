@@ -6,12 +6,10 @@ for i in 1... {
         print(i) 
         break
     }
-    var n = String(B)
     if B % 2 == 0 {
         B /= 2
-    } else if n.last == "1" && B > A {
-        n.removeLast()
-        B = Int(n)!
+    } else if B % 10 == 1 && B > A {
+        B /= 10
     } else {
         print(-1)
         break
