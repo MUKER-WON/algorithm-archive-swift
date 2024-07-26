@@ -1,0 +1,1 @@
+(1...Int(readLine()!)!).forEach { print($0) }
