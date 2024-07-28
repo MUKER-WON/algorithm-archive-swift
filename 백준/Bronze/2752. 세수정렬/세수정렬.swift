@@ -1,0 +1,1 @@
+readLine()!.split{ $0==" " }.map { Int($0)! }.sorted().forEach { print($0) }
