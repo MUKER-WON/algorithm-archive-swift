@@ -1,17 +1,14 @@
-let D = [(0,1),(0,-1),(1,0),(-1,0)]
 let N = Int(readLine()!)!
-let G = (0..<N).map { _ in
-    readLine()!.map { String($0) }
-}
+let G = (0..<N).map { _ in readLine()!.map { String($0) } }
 var ans = 0
 
 func C(_ arr: [String]) -> Int {
-    var (maxCnt, now) = (0,1)
+    var (M, now) = (0,1)
     for i in 1..<N {
         if arr[i] == arr[i-1] { now += 1 }
-        else { maxCnt = max(maxCnt, now); now = 1 }
+        else { M = max(M, now); now = 1 }
     }
-    return max(maxCnt, now)
+    return max(M, now)
 }
 
 for y in 0..<N {
