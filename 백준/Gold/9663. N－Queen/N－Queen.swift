@@ -1,11 +1,8 @@
 let N = Int(readLine()!)!
-
-var visited1 = Array(repeating: false, count: N)
-var visited2 = visited1 + visited1
-var visited3 = visited2
+var V1 = Array(repeating: false, count: N)
+var V2 = V1 + V1
+var V3 = V2
 var ans = 0
-
-/// y: 행의 위치
 func task(_ y: Int) {
     if y == N {
         ans += 1
@@ -13,14 +10,12 @@ func task(_ y: Int) {
     }
     for x in 0..<N {
         let c = [x, x+y, x-y+N-1]
-        
-        if !visited1[c[0]] && !visited2[c[1]] && !visited3[c[2]] {
-            (visited1[c[0]], visited2[c[1]], visited3[c[2]]) = (true, true, true)
+        if !V1[c[0]] && !V2[c[1]] && !V3[c[2]] {
+            (V1[c[0]], V2[c[1]], V3[c[2]]) = (true, true, true)
             task(y+1)
-            (visited1[c[0]], visited2[c[1]], visited3[c[2]]) = (false, false, false)
+            (V1[c[0]], V2[c[1]], V3[c[2]]) = (false, false, false)
         }
     }
 }
-
 task(0)
 print(ans)
