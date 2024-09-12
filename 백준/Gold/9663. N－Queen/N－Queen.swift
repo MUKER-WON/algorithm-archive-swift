@@ -1,23 +1,26 @@
 let N = Int(readLine()!)!
-var v1 = Array(repeating: 0, count: N)
-var v2 = Array(repeating: 0, count: N*2)
-var v3: Set<Int> = []
+
+var visited1 = Array(repeating: false, count: N)
+var visited2 = visited1 + visited1
+var visited3 = visited2
 var ans = 0
 
-func dfs(y: Int) {
-	if y == N {
-		ans += 1
-		return
-	}
-	for x in 0..<N {
-		if (v1[x],v2[y+x]) == (0,0) && !v3.contains(x-y) {
-			(v1[x], v2[y+x]) = (1,1)
-			v3.insert(x-y)
-			dfs(y: y+1)
-			(v1[x], v2[y+x]) = (0,0)
-			v3.remove(x-y)
-		}
-	}
+/// y: 행의 위치
+func task(_ y: Int) {
+    if y == N {
+        ans += 1
+        return
+    }
+    for x in 0..<N {
+        let c = [x, x+y, x-y+N-1]
+        
+        if !visited1[c[0]] && !visited2[c[1]] && !visited3[c[2]] {
+            (visited1[c[0]], visited2[c[1]], visited3[c[2]]) = (true, true, true)
+            task(y+1)
+            (visited1[c[0]], visited2[c[1]], visited3[c[2]]) = (false, false, false)
+        }
+    }
 }
-dfs(y: 0)
+
+task(0)
 print(ans)
