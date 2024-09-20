@@ -14,7 +14,7 @@ readLine()!.split { $0 == " " }.forEach {
 dic.sorted {
     $0.value.1 != $1.value.1 ? $0.value.1 > $1.value.1 : $0.value.0 < $1.value.0
 }.forEach {
-    ans += Array(repeating: String($0.key), count: $0.value.1).joined(separator: " ") + " "
+    ans += String(repeating: "\($0.key) ", count: $0.value.1)
 }
 
 print(ans)
