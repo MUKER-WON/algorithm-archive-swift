@@ -1,15 +1,11 @@
 let n = Int(readLine()!)!
-var arr1 = Array(repeating: 0, count: n)
-var arr2 = Array(repeating: 0, count: n)
+var arr = [0]+(0..<n).map { _ in Int(readLine()!)! }
+var dp = Array(repeating: 0, count: n+1)
 
-for i in 0..<n {
-    let now = Int(readLine()!)!
-    
-    if i == 0 { arr1[i] = now }
-    else { arr1[i] = now + arr2[i-1] }
-    
-    if i < 2 { arr2[i] = now }
-    else { arr2[i] = now + max(arr1[i-2], arr2[i-2]) }
+for i in 1...n {
+    if i == 1 { dp[i] = arr[i]; continue }
+    if i == 2 { dp[i] = max(dp[i-1]+arr[i], dp[i-2]+arr[i]); continue }
+    dp[i] = max(dp[i-3]+arr[i-1]+arr[i], dp[i-2]+arr[i])
 }
 
-print(max(arr1[n-1], arr2[n-1]))
+print(dp[n])
