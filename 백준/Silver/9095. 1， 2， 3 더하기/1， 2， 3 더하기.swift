@@ -1,10 +1,3 @@
-var a = Array(repeating: 0, count: 12)
-a[1] = 1
-a[2] = 2
-a[3] = 4
-for i in 4...11 {
-    a[i] = a[i-1] + a[i-2] + a[i-3]
-}
-for _ in 0..<Int(readLine()!)! {
-    print(a[Int(readLine()!)!])
-}
+var D = [1,2,4]+Array(repeating: 0, count: 7)
+for i in 3..<10 { D[i] = D[i-3]+D[i-2]+D[i-1] }
+for _ in 0..<Int(readLine()!)! { print(D[Int(readLine()!)!-1]) }
