@@ -1,12 +1,14 @@
-let KN = readLine()!.split(separator: " ").map { Int($0)! }
-let arr = (0..<KN[0]).map { _ in Int(readLine()!)! }
-var left = 1
-var right = arr.max()!
-while left <= right {
-    var count = 0
-    let mid = (left + right) / 2
-    for i in arr { count += (i / mid) }
-    if count < KN[1] { right = mid - 1 }
-    else { left = mid + 1 }
+let I = readLine()!.split { $0 == " " }.map { Int($0)! }
+let (K, N) = (I[0], I[1])
+let arr = (0..<K).map { _ in Int(readLine()!)! }
+var (st, en) = (1, arr.max()!)
+
+while st <= en {
+    var cnt = 0
+    let mid = (st + en) / 2
+    for i in arr { cnt += (i / mid) }
+    if cnt < N { en = mid - 1 }
+    else { st = mid + 1 }
 }
-print(right)
+
+print(en)
