@@ -1,17 +1,17 @@
-let input = readLine()!.split(separator: " ").map { Int($0)! }
-var nameSearch = [String: Int]()
-var numSearch = [Int: String]()
+let I = readLine()!.split { $0 == " " }.map { Int($0)! }
+let (N, M) = (I[0], I[1])
+var dic = [String: Int]()
 
-for i in 1...input[0] {
-    let name = readLine()!
-    nameSearch[name] = i
-    numSearch[i] = name
+let monsters = (1...I[0]).map { i -> String in
+    let str = readLine()!
+    dic[str, default: 0] = i
+    return str
 }
-for _ in 0..<input[1] {
-    let temp = readLine()!
-    if let inputInt = Int(temp) {
-        print(numSearch[inputInt]!)
+(0..<I[1]).forEach { _ in
+    let n = readLine()!
+    if let num = Int(n) {
+        print(monsters[num-1])
     } else {
-        print(nameSearch[temp]!)
+        print(dic[n]!)
     }
 }
