@@ -16,7 +16,6 @@ class BinarySearchTree<T: Comparable> {
     func insert(value: T) {
         root = insert(node: root, value: value)
     }
-    
     /// 재귀 형태의 insert 함수
     private func insert(node: Node<T>?, value: T) -> Node<T> {
         guard let node else { return Node(value) }
@@ -33,7 +32,6 @@ class BinarySearchTree<T: Comparable> {
     func erase(value: T) {
         root = erase(node: root, value)
     }
-    
     /// 재귀 형태의 erase 함수
     private func erase(node: Node<T>?, _ value: T) -> Node<T>? {
         guard let node else { return nil }
@@ -72,7 +70,6 @@ class BinarySearchTree<T: Comparable> {
     func find(value: T) -> Node<T>? {
         return find(node: root, value: value)
     }
-    
     /// 재귀 형태의 find 함수
     private func find(node: Node<T>?, value: T) -> Node<T>? {
         guard let node else { return nil }
@@ -97,7 +94,6 @@ class BinarySearchTree<T: Comparable> {
     func printTree() {
         printTree(node: root, prefix: "", isLeft: true)
     }
-    
     /// 재귀 형태의 printTree 함수
     private func printTree(node: Node<T>?, prefix: String, isLeft: Bool) {
         guard let node else { return }
