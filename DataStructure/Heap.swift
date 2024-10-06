@@ -97,3 +97,65 @@ minHeap.push(12)
 print(minHeap.elements) // [8, 14, 12, 27, 16, 21, 20]
 print(minHeap.pop()) // pop 8
 print(minHeap.elements) // [12, 14, 20, 27, 16, 21]
+
+
+// MARK: - 제네릭을 사용하지 않은 경량화 된 구현
+
+struct Heap {
+    var arr = [Int]()
+    let sort: (Int, Int) -> Bool
+    
+    init(sort: @escaping (Int, Int) -> Bool) { self.sort = sort }
+    
+    mutating func insert(_ num: Int) {
+        arr.append(num)
+        siftUp(arr.count-1)
+    }
+    
+    mutating func remove() -> Int? {
+        guard !arr.isEmpty else { return nil }
+        arr.swapAt(0, arr.count-1)
+        let num = arr.removeLast()
+        siftDown(0)
+        return num
+    }
+    
+    mutating func siftUp(_ i: Int) {
+        var child = i
+        var parent = parentIndex(i)
+        
+        while child > 0 &&
+                sort(arr[child], arr[parent]) {
+            arr.swapAt(child, parent)
+            child = parent
+            parent = parentIndex(child)
+        }
+    }
+    
+    mutating func siftDown(_ i: Int) {
+        var parent = i
+        
+        while true {
+            let leftChild = leftChildIndex(parent)
+            let rightChild = rightChildIndex(parent)
+            var minIndex = parent
+            
+            if leftChild < arr.count &&
+                sort(arr[leftChild], arr[minIndex]) {
+                minIndex = leftChild
+            }
+            if rightChild < arr.count &&
+                sort(arr[rightChild], arr[minIndex]) {
+                minIndex = rightChild
+            }
+            if minIndex == parent { return }
+            
+            arr.swapAt(parent, minIndex)
+            parent = minIndex
+        }
+    }
+    
+    func parentIndex(_ i: Int) -> Int { return (i-1) / 2 }
+    func leftChildIndex(_ i: Int) -> Int { return i * 2 + 1 }
+    func rightChildIndex(_ i: Int) -> Int { return i * 2 + 2 }
+}
