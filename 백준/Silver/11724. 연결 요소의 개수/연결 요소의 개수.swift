@@ -1,25 +1,25 @@
-let NM = readLine()!.split(separator: " ").map { Int($0)! }
-let N = NM[0], M = NM[1]
-var arr = Array(repeating: [Int](), count: N+1)
-var visited = [Bool](repeating: false, count: N+1)
-var count = 0
+let I = readLine()!.split { $0 == " " }.map { Int($0)! }
+let (N,M) = (I[0],I[1])
+var graph = Array(repeating: [Int](), count: N+1)
+var visited = Array(repeating: false, count: N+1)
+var ans = 0
+
 for _ in 0..<M {
-    let i = readLine()!.split(separator: " ").map { Int($0)! }
-    arr[i[0]].append(i[1])
-    arr[i[1]].append(i[0])
+    let I = readLine()!.split { $0 == " " }.map { Int($0)! }
+    graph[I[0]].append(I[1])
+    graph[I[1]].append(I[0])
 }
-func dfs(_ n:Int) {
+
+func dfs(_ n: Int) {
     visited[n] = true
-    for i in arr[n] {
-        if !visited[i] {
-            dfs(i)
-        }
-    }
-}
-for i in 1...N {
-    if !visited[i] {
+    for i in graph[n] where !visited[i] {
         dfs(i)
-        count+=1
     }
 }
-print(count)
+
+for i in 1...N where !visited[i] {
+    dfs(i)
+    ans += 1
+}
+
+print(ans)
