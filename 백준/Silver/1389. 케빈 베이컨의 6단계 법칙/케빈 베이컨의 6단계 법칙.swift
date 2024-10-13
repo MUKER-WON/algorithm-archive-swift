@@ -25,10 +25,9 @@ for i in 1...N {
             q.append((j,v+1))
         }
     }
-    if ans.1 >= score {
-        if ans.1 == score { ans.0 = min(ans.0, i) }
-        else { ans = (i, score) }
-    }
+    ans = ans.1 >= score 
+    ? (ans.1 == score ? (min(ans.0, i), score)
+    : (i, score)) : ans
 }
 
 print(ans.0)
