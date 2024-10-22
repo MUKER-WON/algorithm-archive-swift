@@ -7,30 +7,26 @@ func solution(
     _ op_end:String,
     _ commands:[String]
 ) -> String {
-    let tempVideoLen = video_len.split { $0 == ":" }.map { Int($0)! }
-    let tempPos = pos.split { $0 == ":" }.map { Int($0)! }
-    let tempOpStart = op_start.split { $0 == ":" }.map { Int($0)! }
-    let tempOpEnd = op_end.split { $0 == ":" }.map { Int($0)! }
-    
-    let videoLen = tempVideoLen[0]*60+tempVideoLen[1]
-    let opStart = tempOpStart[0]*60+tempOpStart[1]
-    let opEnd = tempOpEnd[0]*60+tempOpEnd[1]
-    var pos = tempPos[0]*60+tempPos[1]
+    let videoLen = stringToTime(video_len)
+    let opStart = stringToTime(op_start)
+    let opEnd = stringToTime(op_end)
+    var pos = stringToTime(pos)
     
     for command in commands {
         if pos >= opStart && pos < opEnd { pos = opEnd }
         
         switch command {
-            case "next":
-                pos += 10
-                if pos > videoLen { pos = videoLen }
-            case "prev":
-                pos -= 10
-                if pos < 0 { pos = 0 }
+            case "next": pos = min(pos+10, videoLen)
+            case "prev": pos = max(pos-10, 0)
             default: continue
         }
     }
     if pos >= opStart && pos < opEnd { pos = opEnd }
     
     return "\(String(format: "%02d", pos/60)):\(String(format: "%02d", pos%60))"
+}
+
+func stringToTime(_ time: String) -> Int {
+    let time = time.split { $0 == ":" }.map { Int($0)! }
+    return time[0]*60 + time[1]
 }
