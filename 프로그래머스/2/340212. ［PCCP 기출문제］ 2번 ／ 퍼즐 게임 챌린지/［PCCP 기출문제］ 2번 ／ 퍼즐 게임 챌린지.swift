@@ -5,7 +5,7 @@ func solution(
     _ times: [Int],
     _ limit: Int64
 ) -> Int {
-    var low = 0
+    var low = 1
     var high = Int(1e9)
     
     while low <= high {
@@ -30,5 +30,5 @@ func solution(
         }
     }
     
-    return low == 0 ? 1 : low
+    return low
 }
