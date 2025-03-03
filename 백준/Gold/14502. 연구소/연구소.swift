@@ -1,35 +1,69 @@
-let r = [(0,1),(0,-1),(1,0),(-1,0)]
-let NM = readLine()!.split {$0==" "}.map {Int($0)!}, N = NM[0], M = NM[1]
-var arr = [[Int]](), virus = [(Int,Int)](), result = 0
-for i in 0..<N {
-    let str = readLine()!.split {$0==" "}.map {Int($0)!}
-    arr.append(str)
-    for j in str.indices {if str[j]==2 { virus.append((i,j))}}
-}
-
-func bfs(b1: (Int,Int), b2: (Int,Int), b3: (Int,Int)) {
-    guard arr[b1.0][b1.1]==0 && arr[b2.0][b2.1]==0 && arr[b3.0][b3.1]==0 else {return}
-    var arr2 = arr
-    (arr2[b1.0][b1.1],arr2[b2.0][b2.1],arr2[b3.0][b3.1]) = (1,1,1)
-    var queue = virus
-    while !queue.isEmpty {
-        let vi = queue.removeFirst()
-        for i in 0..<4 {
-            let my = vi.0+r[i].0, mx = vi.1+r[i].1
-            guard my>=0 && my<N && mx>=0 && mx<M else {continue}
-            guard arr2[my][mx]==0 else {continue}
-            arr2[my][mx] = 2
-            queue.append((my,mx))
+let I = readLine()!.split { $0 == " " }.map { Int($0)! }
+let (N, M) = (I[0], I[1])
+var virus = [(Int, Int)]()
+var lab = (0..<N).map { i -> [Int] in
+    let row = readLine()!.split { $0 == " " }.map { Int($0)! }
+    
+    (0..<M).forEach { j in
+        if row[j] == 2 {
+            virus.append((i, j))
         }
     }
-    result = max(result, arr2.flatMap {$0}.filter {$0==0}.count)
+    return row
+}
+var ans = 0
+
+func buildWall(wallCount: Int, idx: Int) {
+    if wallCount == 3 {
+        spreadVirus()
+        return
+    }
+    if idx >= N * M {
+        return
+    }
+    
+    let (r, c) = (idx / M, idx % M)
+    
+    if lab[r][c] == 0 {
+        lab[r][c] = 1
+        buildWall(wallCount: wallCount + 1, idx: idx + 1)
+        lab[r][c] = 0
+    }
+    buildWall(wallCount: wallCount, idx: idx + 1)
 }
 
-for i in 0..<N*M-2 {
-    for j in i+1..<N*M-1 {
-        for k in j+1..<N*M {
-            bfs(b1: (i/M,i%M), b2: (j/M,j%M), b3: (k/M,k%M))
+func spreadVirus() {
+    let D = [(0,1), (0,-1), (1,0), (-1,0)]
+    var lab = lab
+    var virus = virus
+    
+    while !virus.isEmpty {
+        let (y, x) = virus.removeFirst()
+        
+        for (dy, dx) in D {
+            let (ny, nx) = (y + dy, x + dx)
+            
+            guard ny >= 0 && ny < N && nx >= 0 && nx < M else {
+                continue
+            }
+            guard lab[ny][nx] == 0 else {
+                continue
+            }
+            
+            lab[ny][nx] = 2
+            virus.append((ny,nx))
         }
     }
+    
+    var safeZone = 0
+    
+    for i in 0..<N*M {
+        if lab[i / M][i % M] == 0 {
+            safeZone += 1
+        }
+    }
+    ans = max(ans, safeZone)
 }
-print(result)
+
+buildWall(wallCount: 0, idx: 0)
+print(ans)
