@@ -1,40 +1,36 @@
-import Foundation
-
 func solution(_ n:Int, _ wires:[[Int]]) -> Int {
-    var dictionary: [Int: [Int]] = [:]
-    var visited = Array(repeating: false, count: n+1)
-    var result = Int.max
-    
-    wires.forEach {
-        dictionary[$0[0], default: []].append($0[1])
-        dictionary[$0[1], default: []].append($0[0])
-    }
-    
-    func bfs(_ num: Int) -> Int {
-        var count = 0
-        var queue = [Int]()
+    var ans = Int.max
+
+    for i in 0..<wires.count {
+        var dic = [Int: [Int]]()
+        var visited = Array(repeating: false, count: n+1)
         
-        queue = [num]
-        visited[num] = true
-        while !queue.isEmpty {
-            let key = queue.removeFirst()
-            count += 1
-            for i in dictionary[key]! {
-                if !visited[i] {
-                    queue.append(i)
-                    visited[i] = true
+        wires.enumerated().forEach { index, wire in
+            if index != i {
+                dic[wire[0], default: [Int]()].append(wire[1])
+                dic[wire[1], default: [Int]()].append(wire[0])
+            }
+        }
+        
+        var stack = [1]
+        visited[1] = true
+        var cnt = 1
+        
+        while !stack.isEmpty {
+            let n = stack.removeLast()
+            
+            dic[n]?.forEach { value in
+                if !visited[value] {
+                    visited[value] = true
+                    stack.append(value)
+                    cnt += 1
                 }
             }
         }
-        return count
+        
+        let now = abs((n-cnt) - cnt)
+        ans = min(ans, now)
     }
     
-    for i in 1...n {
-        visited = Array(repeating: false, count: n+1)
-        visited[i] = true
-        let count = bfs(1)
-        result = min(result, abs(count-(n-count)))
-    }
-    
-    return result
+    return ans
 }
