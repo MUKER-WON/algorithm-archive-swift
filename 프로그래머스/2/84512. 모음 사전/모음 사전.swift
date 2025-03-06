@@ -1,15 +1,22 @@
-import Foundation
-
 func solution(_ word:String) -> Int {
-    let alphabet = ["A","E","I","O","U"]
-    var arr = [String]()
-    func backtrack(_ s: String) {
-        arr.append(s)
-        if s.count == alphabet.count { return }
-        for i in 0..<alphabet.count {
-            backtrack(s+alphabet[i])
+    let alphabet = ["A", "E", "I", "O", "U"]
+    var cnt = 0
+    var ans = 0
+    
+    func dfs(stack: [String]) {
+        if stack.joined() == word {
+            ans = cnt
+        }
+        cnt += 1
+
+        if stack.count == 5 {
+            return
+        }
+        
+        (0..<alphabet.count).forEach {
+            dfs(stack: stack + [alphabet[$0]])
         }
     }
-    backtrack("")
-    return arr.firstIndex(of: word)!
+    dfs(stack: [])
+    return ans
 }
