@@ -1,47 +1,4 @@
 
-import Foundation
-
-let N = Int(readLine()!)!
-let M = Int(readLine()!)!
-var list = Array(repeating: [(Int, Int)](), count: N+1)
-
-for _ in 0..<M {
-    let I = readLine()!.split { $0 == " " }.map { Int($0)! }
-    let (start, arrive, cost) = (I[0], I[1], I[2])
-    list[start].append((arrive, cost))
-}
-
-var move = readLine()!.split { $0 == " " }.map { Int($0)! }
-var least = Array(repeating: Int.max, count: N+1)
-var heap = Heap<(Int, Int)>.init { $0.1 < $1.1 }
-
-least[move[0]] = 0
-heap.insert((move[0], 0))
-
-while let (now, value) = heap.remove() {
-    
-    if now == move[1] {
-        least[move[1]] = value
-        break
-    }
-    
-    if value > least[now] {
-        continue
-    }
-    
-    for (next, nextValue) in list[now] {
-        let newValue = value + nextValue
-        
-        if newValue < least[next] {
-            least[next] = newValue
-            heap.insert((next, newValue))
-        }
-    }
-}
-
-print(least[move[1]])
-
-
 class Heap<Element> {
     var elements = [Element]()
     private let sort: (Element, Element) -> Bool
@@ -156,3 +113,43 @@ extension Heap where Element: Comparable {
         return Heap(elements: elements, sort: <)
     }
 }
+
+let N = Int(readLine()!)!
+let M = Int(readLine()!)!
+var list = Array(repeating: [(Int, Int)](), count: N+1)
+
+for _ in 0..<M {
+    let I = readLine()!.split { $0 == " " }.map { Int($0)! }
+    let (start, arrive, cost) = (I[0], I[1], I[2])
+    list[start].append((arrive, cost))
+}
+
+var move = readLine()!.split { $0 == " " }.map { Int($0)! }
+var least = Array(repeating: Int.max, count: N+1)
+var heap = Heap<(Int, Int)>.init { $0.1 < $1.1 }
+
+least[move[0]] = 0
+heap.insert((move[0], 0))
+
+while let (now, value) = heap.remove() {
+    
+    if now == move[1] {
+        least[move[1]] = value
+        break
+    }
+    
+    if value > least[now] {
+        continue
+    }
+    
+    for (next, nextValue) in list[now] {
+        let newValue = value + nextValue
+        
+        if newValue < least[next] {
+            least[next] = newValue
+            heap.insert((next, newValue))
+        }
+    }
+}
+
+print(least[move[1]])
