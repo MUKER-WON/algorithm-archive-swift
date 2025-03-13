@@ -1,5 +1,5 @@
 let N = Int(readLine()!)!
-let MOD = 1_000_000_000
+let MOD = 1000000000
 var dp = [0,1,1,1,1,1,1,1,1,1]
 
 for _ in 1..<N {
@@ -12,4 +12,4 @@ for _ in 1..<N {
     dp = new
 }
 
-print(dp.reduce(0) { ($0 + $1) % MOD })
+print(dp.reduce(0) { ($0+$1) % MOD })
