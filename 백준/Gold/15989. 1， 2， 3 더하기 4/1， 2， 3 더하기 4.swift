@@ -1,7 +1,6 @@
-var dp = Array(repeating: 0, count: 10001)
-dp[0] = 1
+var dp = Array(repeating: 1, count: 10001)
 
-for i in 1...3 {
+for i in 2...3 {
     for j in i..<10001 {
         dp[j] += dp[j-i]
     }
